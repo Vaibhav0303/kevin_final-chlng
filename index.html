@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Conquering Responsive Layouts</title>
+    <link rel="stylesheet" href="./style.css" />
+    
+  </head>
+  <body>
+    <script src = "main.js" type = "module"></script>
+    <header>
+      <div class="container row_700 row_1000">
+          <button class="nav-toggle" aria-label="open navigation">
+            <span class="rect"></span>
+          </button>
+          <a href="#">
+            <img src="img/logo.svg" alt="conquering responsive layouts" style = "padding-top: 10px;"/>
+          </a>
+          <ul class="navbar">
+            <li class="nav_item"><a class="nav_link" href="#">Home</a></li>
+            <li class="nav_item"><a class="nav_link" href="#">About</a></li>
+            <li class="nav_item"><a class="nav_link" href="#">Contact</a></li>
+            <li class="nav_item"><a class="nav_link" href="#">sign in</a></li>
+            <li class="nav_item">
+              <a class="nav_link nav__link--btn" href="#">sign up</a>
+            </li>
+          </ul>
+      </div>
+    </header> 
+    <section class="intro">
+      <div class="container row_1000">
+        <h1 class = "col1">Responsive layouts <span>don't have to be a struggle</span></h1>
+        <div class="intro_text col2">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <a href="#" class="learn--btn">I want to learn</a>
+        </div>
+      </div>
+    </section>
+    <section class="three_cols">
+      <div class="container row_700 three_columns row_1000">
+        <div>
+          <h4>Mobile-first</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+        </div>
+        <div>
+          <h4>Efficient</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+        </div>
+        <div>
+          <h4>Done right</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="content_image">
+      <div class="container row_1000">
+      <div class="content_with_image">
+        <h4>It doesn't have to be so hard</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam.
+        </p>
+        <div class="image">
+          <img src="img/the-image.jpg" alt="hero_image" />
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam.
+        </p>
+      </div>
+      <div class="content_without_image row_700">
+        <div class="box1">
+          <h4>Break it down</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="box2">
+          <h4>Work your way up</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="box3">
+          <h4>Enjoy your life</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+    </div>
+    </section>
+    <footer class="surface">
+      <div class="container">
+        <h2>just scratching the surface</h2>
+        <div class="row_1000">
+      <div class="info info_1">
+        <h4>About our company</h4>
+        <p class = "desc ">Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam.</p>
+      </div>
+      <div class="info_2 row_1000 row_700">
+      <div class="info">
+        <h4>Getting Around</h4>
+        <ul class="desc">
+          <li class="note"><a class = "note-link" href = "#">Home</a></li>
+          <li class="note"><a class = "note-link" href = "#">About</a></li>
+          <li class="note"><a class = "note-link" href = "#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="info">
+        <h4>Other Things</h4>
+        <ul class="desc">
+          <li class="note"><a class = "note-link" href = "#">Lorem ipsum</a></li>
+          <li class="note"><a class = "note-link" href = "#">dolor</a></li>
+          <li class="note"><a class = "note-link" href = "#">sit amet</a></li>
+          <li class="note"><a class = "note-link" href = "#">consectetur</a></li>
+
+        </ul>
+      </div>
+      <div class="info">
+        <h4>And more</h4>
+        <ul class="desc">
+          <li class="note"><a class = "note-link" href = "#">Lorem ipsum</a></li>
+          <li class="note"><a class = "note-link" href = "#">dolor</a></li>
+          <li class="note"><a class = "note-link" href = "#">sit amet</a></li>
+          <li class="note"><a class = "note-link" href = "#">consectetur</a></li>
+
+        </ul>
+      </div>
+    </div>
+      </div>
+    </div>
+    </footer>
+  </body>
+</html>
