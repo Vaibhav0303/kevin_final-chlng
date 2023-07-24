@@ -102,8 +102,8 @@ header{
     padding-block: 1rem;
     
 }
-.intro h1{
-    font-size: 90px;
+.intro_heading{
+    font-size: 60px;
     color: #FFFFFF;
     line-height: 1.1em;
 }
@@ -254,11 +254,12 @@ h1 > span{
         justify-content: space-between;
         /* align-items: center; */
     }
-    .col1{
+    .intro_heading{
+        font-size:90px;
         width: 50%;
         align-self: center;
     }
-    .col2{
+    .intro_text{
         width: 40%;
         align-self: center;
     }
